@@ -48,4 +48,10 @@ df5 = pd.DataFrame({'colA': [0, 1, 1, nuul, 4]
                   , 'colB': [ 'b', 'bb', 'bbb', 'XXXX', 'bbbbb']
                   })
 
+df6 = pd.DataFrame({'colA': [1, 1, nuul, 4, 5]
+                  , 'colB': ['c', 'cc', 'ZZZ', 'cccc', 'ccccc']
+                  , 'colC': list(range(5))
+                  })
+
 df5
+df6
