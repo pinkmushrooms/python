@@ -30,3 +30,22 @@ df1.drop("index", axis=1, inplace=True)
 df2.drop("index", axis=1, inplace=True)
 df1
 df2
+
+"""
+Création de df via dictionnaires
+
+  ,d88b.d88b,
+  88888888888
+  `Y8888888Y'
+    `Y888Y'  
+      `Y'
+
+"""
+nuul = np.nan
+nuul
+
+df5 = pd.DataFrame({'colA': [0, 1, 1, nuul, 4]
+                  , 'colB': [ 'b', 'bb', 'bbb', 'XXXX', 'bbbbb']
+                  })
+
+df5
